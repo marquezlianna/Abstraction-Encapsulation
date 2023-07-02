@@ -49,3 +49,10 @@ class TestFan:
         fan1 = Fan(Fan.FAST, 10, 'yellow', True)
         # Assign medium speed, radius 5, color blue, and turn it off for the second object.
         fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
+
+        # Display each object’s speed, radius, color, and on properties.
+        print("Fan 1:")
+        print("Speed:", fan1.get_speed())
+        print("Radius:", fan1.get_radius())
+        print("Color:", fan1.get_color())
+        print("On:", fan1.is_on())
