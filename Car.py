@@ -1,3 +1,12 @@
+import pyfiglet
+import colorama
+
+# Initialize colorama
+colorama.init()
+
+# Define color constants
+COLOR_LIGHTMAGENTA_EX = colorama.Fore.LIGHTMAGENTA_EX
+
 # Create a class representing a car
 class Car:
     # Initializes a new instance of the Car class.
@@ -23,13 +32,13 @@ def main():
     car = Car(2023,"Lamborghini")
 
     # Accelerate the car five times and display the current speed after each acceleration
-    print("The car is accelerating...")
+    print(COLOR_LIGHTMAGENTA_EX + pyfiglet.figlet_format("The car is accelerating...", font="starwars", justify="center", width=170))
     for _ in range(5):
         car.accelerate()
         print(f"Current speed: {car.get_speed()}")
 
     # Brake the car five times and display the current speed after each brake
-    print("The car is braking...")
+    print(COLOR_LIGHTMAGENTA_EX + pyfiglet.figlet_format("The car is braking...", font="starwars", justify="center", width=170))
     for _ in range(5):
         car.brake()
         print(f"Current speed: {car.get_speed()}")
