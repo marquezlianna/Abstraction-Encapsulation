@@ -31,5 +31,13 @@ class Pet:
     def get_age(self):
         return self.__age
 
+# Create an object of the Pet class
+pet = Pet()
+
+# Prompt the user to enter the name, type, and age of their pet
+name = str(input("Enter the name of your pet: "))
+animal_type = str(input("Enter the type of your pet: "))
+age = str(input("Enter the age of your pet: "))
+
 
 
