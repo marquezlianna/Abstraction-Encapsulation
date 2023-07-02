@@ -1,3 +1,13 @@
+import pyfiglet
+import colorama
+
+# Initialize colorama
+colorama.init()
+
+# Define color constants
+COLOR_YELLOW = colorama.Fore.YELLOW
+COLOR_BLUE = colorama.Fore.BLUE
+
 # Design a class named Fan to represent a fan.
 class Fan:
     # The class contains:
@@ -51,14 +61,14 @@ class TestFan:
         fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
 
         # Display each object’s speed, radius, color, and on properties.
-        print("Fan 1:")
-        print("Speed:", fan1.get_speed())
+        print(COLOR_YELLOW + pyfiglet.figlet_format("Fan 1:", font="starwars"))
+        print(COLOR_YELLOW + "Speed:", fan1.get_speed())
         print("Radius:", fan1.get_radius())
         print("Color:", fan1.get_color())
         print("On:", fan1.is_on())
 
-        print("\nFan 2:")
-        print("Speed:", fan2.get_speed())
+        print(COLOR_BLUE + pyfiglet.figlet_format("\nFan 2:", font="starwars"))
+        print(COLOR_BLUE + "Speed:", fan2.get_speed())
         print("Radius:", fan2.get_radius())
         print("Color:", fan2.get_color())
         print("On:", fan2.is_on())
