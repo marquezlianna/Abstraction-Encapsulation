@@ -13,4 +13,7 @@ class Car:
     # Decreases the speed of the car by 5.
     def brake(self):
         self.__speed -= 5
-        
+
+    # Returns the current speed of the car.
+    def get_speed(self):
+        return self.__speed
