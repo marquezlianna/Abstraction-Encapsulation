@@ -41,3 +41,11 @@ class Fan:
 
     def set_color(self, color):
         self.__color = color
+
+# Write a test program named TestFan that creates two Fan objects.
+class TestFan:
+    # For the first object, assign the maximum speed, radius 10, color yellow, and turn it on.
+    def __init__(self):
+        fan1 = Fan(Fan.FAST, 10, 'yellow', True)
+        # Assign medium speed, radius 5, color blue, and turn it off for the second object.
+        fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
