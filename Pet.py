@@ -39,5 +39,10 @@ name = str(input("Enter the name of your pet: "))
 animal_type = str(input("Enter the type of your pet: "))
 age = str(input("Enter the age of your pet: "))
 
+# Set the attributes of the pet object
+pet.set_name(name)
+pet.set_animal_type(animal_type)
+pet.set_age(age)
+
 
 
