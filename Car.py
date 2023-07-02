@@ -34,4 +34,5 @@ def main():
         car.brake()
         print(f"Current speed: {car.get_speed()}")
 
-
+# Run the program
+main()
