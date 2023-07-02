@@ -82,3 +82,14 @@ To run the program, follow these steps:
 
 The program will create a `Car` object, simulate the acceleration and braking of the car, and display the current speed after each action.
 
+# Pet Information
+
+This program allows users to enter information about their pets, including the name, type, and age, and displays the entered information.
+
+## Usage
+- Enter the name of your pet in the "Enter the name of your pet" entry field.
+- Enter the type of your pet in the "Enter the type of your pet" entry field.
+- Enter the age of your pet in the "Enter the age of your pet" entry field.
+- Click the "Submit" button to display the entered information in a new window.
+- The new window will show the pet's name, animal type, and age.
+
