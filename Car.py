@@ -1,0 +1,9 @@
+# Create a class representing a car
+class Car:
+    # Initializes a new instance of the Car class.
+    def __init__(self, year_model, make):
+        self.__year_model = year_model
+        self.__make = make
+        self.__speed = 0
+
+        
