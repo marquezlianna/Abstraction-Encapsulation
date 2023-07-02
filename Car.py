@@ -9,3 +9,8 @@ class Car:
     # Increases the speed of the car by 5.
     def accelerate(self):
         self.__speed += 5
+
+    # Decreases the speed of the car by 5.
+    def brake(self):
+        self.__speed -= 5
+        
