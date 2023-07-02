@@ -17,3 +17,13 @@ class Car:
     # Returns the current speed of the car.
     def get_speed(self):
         return self.__speed
+
+# Create a Car object
+def main():
+    car = Car(2023,"Lamborghini")
+
+    # Accelerate the car five times and display the current speed after each acceleration
+    print("The car is accelerating...")
+    for _ in range(5):
+        car.accelerate()
+        print(f"Current speed: {car.get_speed()}")
