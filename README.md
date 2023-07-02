@@ -40,3 +40,45 @@ To run the program, follow these steps:
 
 The program will create the `Fan` objects, display their properties, and present the output in the console.
 
+# Car Program
+
+This program demonstrates the usage of the `Car` class to simulate the acceleration and braking of a car. It utilizes the `pyfiglet` library for ASCII art text rendering and the `colorama` library for colored console output.
+
+## Program Description
+
+The program consists of two main components: the `Car` class and the `main` function.
+
+### The `Car` Class
+
+The `Car` class represents a car object and contains the following attributes:
+
+- `__year_model`: A private integer data field representing the year and model of the car.
+- `__make`: A private string data field representing the make of the car.
+- `__speed`: A private integer data field representing the current speed of the car.
+
+The class provides the following methods:
+
+- `__init__(self, year_model, make)`: Initializes a new instance of the `Car` class with the specified `year_model` and `make`.
+- `accelerate(self)`: Increases the speed of the car by 5.
+- `brake(self)`: Decreases the speed of the car by 5.
+- `get_speed(self)`: Returns the current speed of the car.
+
+### The `main` Function
+
+The `main` function serves as the entry point of the program. It creates a `Car` object and demonstrates the acceleration and braking of the car. It uses `pyfiglet` to create ASCII art headings for each action and `colorama` to display the text in a different color.
+
+## How to Run the Program
+
+To run the program, follow these steps:
+
+1. Make sure you have Python and the required libraries installed.
+2. Copy the program code into a Python file (e.g., `car.py`).
+3. Open a terminal or command prompt.
+4. Navigate to the directory where the Python file is located.
+5. Run the following command:
+   ```
+   python car.py
+   ```
+
+The program will create a `Car` object, simulate the acceleration and braking of the car, and display the current speed after each action.
+
