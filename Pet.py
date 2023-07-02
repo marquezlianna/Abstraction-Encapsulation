@@ -57,8 +57,6 @@ age_label.pack()
 age_entry = tk.Entry(window, font=("Arial", 12))
 age_entry.pack()
 
-
-
 # Set the attributes of the pet object
 def submit():
     name = name_entry.get()
@@ -89,7 +87,3 @@ submit_button.pack(pady=10)
 
 # Run the Program
 window.mainloop()
-
-
-
-
