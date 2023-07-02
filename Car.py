@@ -27,3 +27,11 @@ def main():
     for _ in range(5):
         car.accelerate()
         print(f"Current speed: {car.get_speed()}")
+
+    # Brake the car five times and display the current speed after each brake
+    print("The car is braking...")
+    for _ in range(5):
+        car.brake()
+        print(f"Current speed: {car.get_speed()}")
+
+
